@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #D68580;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#busqueda {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.house {
+    background-color: #921037;
+    height: auto;
+    width: auto;
+    color: #fff;
+    border-radius: 5vh;
+    border: 1px solid #fff;
+    padding: 2vh 10vh 2vh 10vh;
+    margin: 2vh;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: #000 1px 1px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 1vh 2vh 1vh;
+}
+
+label {
+    text-align: center;
+    color: #921037;
+    font-weight: 600;
+}
+
+select {
+    width: 20vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 1vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    select {
+        width: 80vw;
+    }
+}

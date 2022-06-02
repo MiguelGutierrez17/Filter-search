@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Buscador</title>
+</head>
+
+<body>
+    <h1>Encuentra tu casa ideal</h1>
+    <div class="container">
+        <div class="item">
+            <label for="ciudad">Ciudad</label>
+            <select id="ciudad">
+                <option value="">Seleccionar</option>
+                <option value="Bogotá">Bogotá</option>
+                <option value="Cali">Cali</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Barranquilla">Barranquilla</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="year_cons">Año de construcción</label>
+            <select id="year_cons">
+                <option value="">Seleccionar</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="num_pisos">Número de pisos</label>
+            <select id="num_pisos">
+                <option value="">Seleccionar</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="num_hab">Número de habitaciones</label>
+            <select id="num_hab">
+                <option value="">Seleccionar</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">
+        <div class="item">
+            <label for="arriendo">¿Arriendo?</label>
+            <select id="arriendo">
+                <option value="">Seleccionar</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="park">¿Parqueadero?</label>
+            <select id="park">
+                <option value="">Seleccionar</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="min_price">Precio mínimo</label>
+            <select id="min_price">
+                <option value="">Seleccionar</option>
+                <option value="100000000">$100.000.000</option>
+                <option value="200000000">$200.000.000</option>
+                <option value="300000000">$300.000.000</option>
+                <option value="400000000">$400.000.000</option>
+                <option value="500000000">$500.000.000</option>
+                <option value="600000000">$600.000.000</option>
+                <option value="700000000">$700.000.000</option>
+                <option value="800000000">$800.000.000</option>
+                <option value="900000000">$900.000.000</option>
+                <option value="1000000000">$1.000.000.000</option>
+                <option value="1100000000">$1.100.000.000</option>
+                <option value="1200000000">$1.200.000.000</option>
+            </select>
+        </div>
+        <div class="item">
+            <label for="max_price">Precio máximo</label>
+            <select id="max_price">
+                <option value="">Seleccionar</option>
+                <option value="100000000">$100.000.000</option>
+                <option value="200000000">$200.000.000</option>
+                <option value="300000000">$300.000.000</option>
+                <option value="400000000">$400.000.000</option>
+                <option value="500000000">$500.000.000</option>
+                <option value="600000000">$600.000.000</option>
+                <option value="700000000">$700.000.000</option>
+                <option value="800000000">$800.000.000</option>
+                <option value="900000000">$900.000.000</option>
+                <option value="1000000000">$1.000.000.000</option>
+                <option value="1100000000">$1.100.000.000</option>
+                <option value="1200000000">$1.200.000.000</option>
+            </select>
+        </div>
+    </div>
+    <h1>Resultados de tu busqueda</h1>
+    <div id="busqueda"></div>
+    <script src="/js/bd.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
